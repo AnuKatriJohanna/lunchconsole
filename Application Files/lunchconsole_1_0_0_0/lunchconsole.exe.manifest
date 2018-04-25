@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="lunchconsole.exe" version="1.0.0.0" publicKeyToken="0f4f3afd2a60455c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="lunchconsole" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="lunchconsole.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lunchconsole.exe" size="9696">
+      <assemblyIdentity name="lunchconsole" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oefcsGKvEa1YMuJ1kb5g3AGShC88uJQeB3Nr3QDeKLY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="lunchconsole.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=USD\anu.lipponen" issuerKeyHash="a7a02468c6b1d206fa721cd2f5c5ed214c795a6b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2KYjbjTYv2N6fpLitSYM/fc8jCSY62ndAnK4P1b6rks=</DigestValue></Reference></SignedInfo><SignatureValue>gAvR1pCLLtGetghZJiLVBwQ2o3MImtTcK+b9bpaIuGFc0nsmyp8QJyAVwb4faWSTe112q2gOpUPEdNEX15l4Rn+oMw+U8tX0EziWyQPiLzG1JW7BGM/4cd5Kt2Xz4ogrs6zibg8kD7wVR0SAnAl4rQQHTsg9qQxILCJnbny/dw4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qbCRLa/j96AMf+gzBuJk6cxRO6SclPsMpurUH6Qbb5YLqaoMsqCSQPcKpCkYtCYuRSqeZYxOF5knZeQD2knfOlbnKeSK22KVzbd0W9/p7eC7RkBwzKf4VvUkbF+Dv2nfOUVTw9+6un/6mP+E4strxlk0lnM45DgFx5xHAmgFZPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4baefa563fb87202dd69eb98248c3cf7fd0c26b5e2927e7a63bfd8346e23a6d8" Description="" Url=""><as:assemblyIdentity name="lunchconsole.exe" version="1.0.0.0" publicKeyToken="0f4f3afd2a60455c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=USD\anu.lipponen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>03ajtb2877fgFtbPPsVMlxSKXbAlUzjP1DMt1M4JgPQ=</DigestValue></Reference></SignedInfo><SignatureValue>CfpDVF+fZdsqu6lEm/58hOTGX/kqiFx8alhHbb9AMCwHQy0LB4sgFbDJ7hUCMsW5DfFdvtPHEIwDLx1mLTZbq/61txjvlrRyKQYUoxD0fRZX+7Ow75qN4yZ9eWBn3bm7IpKMu/WA9JfdsHr/SxAxvgOei2Hsejypasl5WRlokB4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qbCRLa/j96AMf+gzBuJk6cxRO6SclPsMpurUH6Qbb5YLqaoMsqCSQPcKpCkYtCYuRSqeZYxOF5knZeQD2knfOlbnKeSK22KVzbd0W9/p7eC7RkBwzKf4VvUkbF+Dv2nfOUVTw9+6un/6mP+E4strxlk0lnM45DgFx5xHAmgFZPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQH4frszB7zLFAZI3QI+zu1zANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAVQBTAEQAXABhAG4AdQAuAGwAaQBwAHAAbwBuAGUAbjAeFw0xODA0MTgxMTAwMzBaFw0xOTA0MTgxNzAwMzBaMCsxKTAnBgNVBAMeIABVAFMARABcAGEAbgB1AC4AbABpAHAAcABvAG4AZQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpsJEtr+P3oAx/6DMG4mTpzFE7pJyU+wym6tQfpBtvlgupqgyyoJJA9wqkKRi0Ji5FKp5ljE4XmSdl5APaSd86Vucp5IrbYpXNt3Rb3+nt4LtGQHDMp/hW9SRsX4O/ad85RVPD37q6f/qY/4Tiy2vGWTSWczjkOAXHnEcCaAVk8wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAjLd2eJ7tdEFI45FWEYg51PzMIFEZCI6R9grpNkZgyqGRFOqZy/749Dm/eqKhU951UU4ZIY6d8lEQBU4rHBsER3f09tP1FDzpsO8JdYg3qdrug+cl11d4EZ+51WxbXZUiIKXpAudEq2/E2+UTCggp5LuS1sGMEMM6oY+R4GdA03</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

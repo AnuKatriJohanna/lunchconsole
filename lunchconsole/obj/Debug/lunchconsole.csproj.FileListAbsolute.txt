@@ -1,0 +1,11 @@
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\bin\Debug\lunchconsole.exe.config
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\bin\Debug\lunchconsole.exe.manifest
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\bin\Debug\lunchconsole.application
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\bin\Debug\lunchconsole.exe
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\bin\Debug\lunchconsole.pdb
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\obj\Debug\lunchconsole.csprojResolveAssemblyReference.cache
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\obj\Debug\lunchconsole.csproj.CoreCompileInputs.cache
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\obj\Debug\lunchconsole.exe.manifest
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\obj\Debug\lunchconsole.application
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\obj\Debug\lunchconsole.exe
+C:\Omat\Koodaukset\Kraftvaerk\lunchconsole\lunchconsole\obj\Debug\lunchconsole.pdb

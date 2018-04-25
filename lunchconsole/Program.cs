@@ -17,9 +17,9 @@ namespace lunchconsole
         {
             Console.WriteLine("Hello Kraftvaerk!");
             InitMenu();
-            Console.WriteLine("Today's menu is {0} ", GetTodayMenu());
-
-            AskAndPrintMenu();
+            AskAndInitMenu();
+            
+            
 
             var quit = false;
             while (!quit)
@@ -65,6 +65,7 @@ namespace lunchconsole
                 {
                     Menu = newMenu;
                     Console.WriteLine("Using new menu.");
+                    Console.WriteLine("Today's menu is {0} ", GetTodayMenu());
                     AskAndPrintMenu();
                 }
             }

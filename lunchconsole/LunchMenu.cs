@@ -34,7 +34,7 @@ public class LunchMenu
         }
         catch(Exception e)
         {
-            Menus = new List<MenuLine>();
+            Menus = new List<MenuLine>() { new MenuLine() };
         }
     }
 
